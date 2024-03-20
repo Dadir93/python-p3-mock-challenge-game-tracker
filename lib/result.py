@@ -1,0 +1,7 @@
+from game import Game
+
+class Result:
+    def __init__(self, player, game, score):
+        self.player = player
+        self.game = game
+        self.score = score
